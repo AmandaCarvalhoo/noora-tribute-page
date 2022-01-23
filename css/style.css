@@ -330,19 +330,29 @@ nav .active a, nav a:hover {
         justify-content: center;
     }
 
+    .carreira_body .album_info {
+        padding: 0;
+    }
+
     .album {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 0 0 70px 0;
+        padding: 0;
         width: 100%;
     }
 
     .album img {
-        padding: 30px;
+        padding: 30px 0;
         height: auto;
         width: 90%;
+    }
+
+    .album_info {
+        padding: 20px 0;
+        margin: 0;
     }
 
     #galeria {
