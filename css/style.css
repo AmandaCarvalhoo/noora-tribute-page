@@ -366,7 +366,7 @@ nav .active a, nav a:hover {
         align-items: center;
         justify-content: center;
         height: auto;
-        padding: 20px;
+        padding: 20px 0;
         width: 100%;
     }
 
@@ -434,7 +434,7 @@ nav .active a, nav a:hover {
 
     .center-img {
         width: 90%;
-        padding: 10px;
+        padding: 20px 0;
         margin: 0;
     }
 
@@ -464,5 +464,11 @@ nav .active a, nav a:hover {
         margin-right: 30px;
         width: 80%;
     }
+
+    
+.players > img {
+    width: 40%;
+    height: auto;
+}
 
 }
